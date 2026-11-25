@@ -1,0 +1,8 @@
+Request for Proposal: Campus-to-Career Talent Platform
+Client: SkillBridge Foundation (non-profit, 50,000 students)
+
+We want a platform where students upload resumes, get their skills extracted automatically, and receive matched job and internship recommendations. Recruiters should be able to search candidates, filter by skills and shortlist them. We need an Android and iOS app as well as a web version.
+
+Students should get push notifications for new matches. An admin panel is needed for our team to manage employers and content. We also want analytics on placement outcomes, and a Java-based legacy portal needs to be connected so existing student records are available.
+
+The app should feel seamless and work well for 50,000 users. Budget: INR 25-30 lakh. Timeline: 5 months.

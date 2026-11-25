@@ -1,0 +1,8 @@
+Request for Proposal: Internal Policy & Support Assistant
+Client: Lumen Capital (regulated NBFC, 300 employees)
+
+Our support and compliance teams spend hours searching hundreds of PDF policy documents. We want an AI assistant that answers staff questions in natural language using only our approved documents, and cites the source page. The assistant must never invent policy.
+
+Requirements: single sign-on with our identity provider, role-based access so teams only see permitted documents, full audit logs of every question and answer, and a dashboard of usage and unanswered questions. Scanned PDFs need OCR. The solution must comply with RBI guidelines and India's DPDP Act, and data must remain in India.
+
+We prefer Azure. We are open on timeline but expect a pilot within 10 weeks. Budget to be discussed. The system should be robust and highly available.

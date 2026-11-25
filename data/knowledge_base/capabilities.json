@@ -1,0 +1,31 @@
+{
+  "_note": "Illustrative knowledge base built from public Cynbit information. Replace with real internal docs.",
+  "stacks": [
+    {"id":"web-saas","name":"Web SaaS Stack","description":"Multi-tenant web platforms with dashboards, billing and admin tooling.","best_for":"SaaS products, portals, dashboards, admin systems",
+     "components":{"frontend":"Next.js","backend":"FastAPI","database":"PostgreSQL","cache":"Redis","cloud":"AWS / Azure"},
+     "tags":["auth","multi_tenant","dashboard_analytics","payments","admin_panel","notifications","search_filter","file_storage","integrations","property_mgmt","review_assistant"]},
+    {"id":"ai-rag","name":"AI & RAG Stack","description":"LLM-powered assistants and document intelligence with hybrid retrieval and guardrails.","best_for":"Chatbots, knowledge assistants, document extraction, predictive features",
+     "components":{"frontend":"Next.js","backend":"FastAPI","database":"PostgreSQL","vector":"Qdrant","llm":"LLM gateway with schema-constrained output","cloud":"AWS / Azure"},
+     "tags":["ai_assistant","document_processing","predictive","career_intel"]},
+    {"id":"mobile-first","name":"Mobile-First Stack","description":"Cross-platform mobile apps with shared backend APIs and push messaging.","best_for":"Consumer and field apps on Android and iOS",
+     "components":{"frontend":"React Native","backend":"Node.js","database":"PostgreSQL","cache":"Redis","cloud":"AWS / Azure"},
+     "tags":["mobile_app","realtime","geo_maps"]},
+    {"id":"automation-core","name":"Workflow Automation Stack","description":"Event-driven pipelines, schedulers and integration workers.","best_for":"Back-office automation, ERP/CRM integrations, scheduled jobs",
+     "components":{"frontend":"Next.js","backend":"FastAPI + Celery","database":"PostgreSQL","queue":"Redis","cloud":"AWS / Azure"},
+     "tags":["workflow_automation","integrations","realtime"]}
+  ],
+  "modules": [
+    {"id":"tenantease-core","name":"TenantEase Core","feature":"property_mgmt","reuse_pct":0.40,"description":"Leases, rent ledger, maintenance tickets, tenant and landlord portals."},
+    {"id":"revio-engine","name":"Revio Engine","feature":"review_assistant","reuse_pct":0.35,"description":"Review aggregation, sentiment analysis and AI reply drafting."},
+    {"id":"studio-core","name":"Cynbit Studio Core","feature":"career_intel","reuse_pct":0.30,"description":"Resume parsing, skills graph and job matching."},
+    {"id":"auth-rbac-kit","name":"Auth & RBAC Kit","feature":"auth","reuse_pct":0.50,"description":"SSO, OAuth, role-based access control and audit logging."},
+    {"id":"billing-kit","name":"Billing Kit","feature":"payments","reuse_pct":0.40,"description":"Subscriptions, invoices and payment gateway adapters."}
+  ],
+  "baselines": [
+    {"id":"zero-trust","name":"Zero-trust networking","description":"Private subnets, least-privilege IAM, no public database endpoints."},
+    {"id":"secrets","name":"Managed secrets & key management","description":"No secrets in code; KMS-managed encryption at rest and TLS in transit."},
+    {"id":"audit","name":"Audit logging & RBAC","description":"Role-based access with immutable audit trails."},
+    {"id":"observability","name":"Observability for a 99.9% uptime SLO","description":"Metrics, tracing, alerting and health checks."},
+    {"id":"dr","name":"Backups & disaster recovery","description":"Automated backups with tested restore procedures."}
+  ]
+}

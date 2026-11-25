@@ -1,0 +1,21 @@
+[
+ {"id":"auth","name":"Authentication & role-based access","category":"core","hours":60,"keywords":["login","authentication","sso","single sign-on","role-based","rbac","user roles","oauth","permissions","access control"]},
+ {"id":"multi_tenant","name":"Multi-tenancy & organizations","category":"core","hours":90,"keywords":["multi-tenant","multitenant","white-label","white label","organizations","per-client"]},
+ {"id":"dashboard_analytics","name":"Dashboards & analytics","category":"ui","hours":80,"keywords":["dashboard","analytics","reports","reporting","kpi","charts","insights"]},
+ {"id":"payments","name":"Payments & billing","category":"integration","hours":70,"keywords":["payment","billing","subscription","invoice","razorpay","stripe","checkout","rent collection","pay rent"]},
+ {"id":"notifications","name":"Notifications (email/SMS/push)","category":"core","hours":40,"keywords":["notification","email alert","sms","whatsapp","push","reminder","alerts"]},
+ {"id":"mobile_app","name":"Mobile app (Android & iOS)","category":"mobile","hours":160,"keywords":["mobile app","android","ios","react native","mobile application"]},
+ {"id":"ai_assistant","name":"AI assistant / RAG search","category":"ai","hours":120,"keywords":["chatbot","assistant","llm","rag","semantic search","gpt","generative","natural language","ask questions","knowledge base"]},
+ {"id":"document_processing","name":"Document extraction (OCR/parsing)","category":"ai","hours":90,"keywords":["ocr","document extraction","pdf","parse","parsing","extract data","scanned"]},
+ {"id":"predictive","name":"Predictive analytics & recommendations","category":"ai","hours":100,"keywords":["predict","forecast","recommendation","churn","anomaly","scoring","machine learning"]},
+ {"id":"property_mgmt","name":"Property & lease management","category":"core","hours":110,"module":"tenantease-core","keywords":["property","properties","lease","rent","landlord","maintenance request","units"]},
+ {"id":"review_assistant","name":"Review management & sentiment","category":"ai","hours":80,"module":"revio-engine","keywords":["review","ratings","feedback","sentiment","reputation","testimonials"]},
+ {"id":"career_intel","name":"Resume parsing & job matching","category":"ai","hours":90,"module":"studio-core","keywords":["resume","career","job matching","matched job","skills","candidate","recruiter","applicant"]},
+ {"id":"integrations","name":"Third-party integrations","category":"integration","hours":60,"keywords":["integration","integrate","erp","crm","webhook","third-party","third party","salesforce","zoho","tally","connected"]},
+ {"id":"admin_panel","name":"Admin panel / back office","category":"ui","hours":50,"keywords":["admin panel","back office","back-office","cms","content management","admin dashboard"]},
+ {"id":"search_filter","name":"Search & filtering","category":"core","hours":40,"keywords":["search","filter","catalog","listing","browse"]},
+ {"id":"file_storage","name":"File upload & storage","category":"core","hours":30,"keywords":["upload","file storage","attachments","photo uploads","media"]},
+ {"id":"workflow_automation","name":"Workflow & approvals automation","category":"core","hours":80,"keywords":["workflow","approval","automation","automate","scheduling","scheduled","rules engine"]},
+ {"id":"realtime","name":"Real-time updates","category":"core","hours":70,"keywords":["real-time","realtime","live tracking","websocket","live updates","instant"]},
+ {"id":"geo_maps","name":"Maps & geolocation","category":"ui","hours":50,"keywords":["map","maps","geolocation","gps","route","geofence"]}
+]

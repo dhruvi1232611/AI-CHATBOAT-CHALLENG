@@ -1,0 +1,8 @@
+Request for Proposal: Rental Operations Platform
+Client: Marigold Estates (residential real estate, ~1,200 units across 3 cities)
+
+We need a modern web platform to manage our rental properties. The system must let landlords and property managers track leases, units and rent collection. Tenants should be able to log in, pay rent online via Razorpay, and raise maintenance requests with photo uploads. Staff must receive email and WhatsApp reminders for overdue rent.
+
+The platform should be fast, scalable and easy to use. We want a dashboard showing occupancy, collections and maintenance KPIs, plus exportable monthly reports. Role-based access is required for owners, managers and tenants. We currently use Tally for accounting and would like some integration with it.
+
+Our data must be kept secure and we expect good uptime. We would like to go live in about 4 months.
